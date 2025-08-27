@@ -1,0 +1,31 @@
+.poke__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.poke__card {
+    background-color: #fff;
+    font-size: 1.2rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 130px;
+    box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+    transition: scale 0.3s;
+    font-weight: 500;
+}
+
+.poke__card:hover {
+    scale: 1.03;
+}
+
+.poke__title {
+    background: linear-gradient(to right, #a80505, #1d5174);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    max-width: fit-content;
+    justify-content: center;
+}

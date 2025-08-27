@@ -1,0 +1,10 @@
+.avatar_img {
+    border-radius: 50%;
+    width: 100px;
+    display: flex;
+}
+
+.users_profile {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
